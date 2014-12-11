@@ -1,4 +1,4 @@
-var klay = (function () {
+var klayNoflo = (function () {
   "use strict";
   
   var worker;
@@ -42,7 +42,7 @@ var klay = (function () {
       } else if ("workerScript" in params) {
         workerScript = params.workerScript;
       } else {
-        workerScript = "klay-worker.js";
+        workerScript = "../bower_components/klayjs/klay.js";
       }
       // Start the WebWorker
       worker = new Worker(workerScript);
