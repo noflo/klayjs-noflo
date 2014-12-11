@@ -1,17 +1,16 @@
 {
   "name": "klayjs-noflo",
-  "version": "0.2.0",
-  "homepage": "https://github.com/automata/klay-js",
+  "version": "0.3.0",
+  "homepage": "https://github.com/noflo/klayjs-noflo",
   "authors": [
     "Vilson Vieira <vilson@void.cc>"
   ],
-  "description": "Component to KIELER/KLay Layered JavaScript",
+  "description": "Interface to autolayout NoFlo graphs with KIELER/KLay Layered algo",
   "main": "klay-noflo.js",
   "keywords": [
     "autolayout",
     "graph",
-    "gwt",
-    "webworker"
+    "noflo"
   ],
   "license": "MIT",
   "ignore": [
