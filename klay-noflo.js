@@ -328,6 +328,10 @@ var klayNoflo = (function () {
       kGraph.edges = cleanArray(kGraph.edges);
 
       return kGraph;
+    },
+
+    terminate: function () {
+        worker.terminate();
     }
   }
 })();
