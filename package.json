@@ -2,7 +2,9 @@
   "name": "klayjs-noflo",
   "version": "0.3.0",
   "description": "Interface to autolayout NoFlo graphs with KIELER/KLay Layered algo",
-  "dependencies": {},
+  "dependencies": {
+    "klayjs": "^0.2.1"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
