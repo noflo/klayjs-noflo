@@ -1,7 +1,7 @@
 {
   "name": "klayjs-noflo",
   "version": "0.3.0",
-  "description": "Interface to autolayout NoFlo graphs with KIELER/KLay Layered algo",
+  "description": "Autolayout FBP graphs using KIELER/KLay Layered algo",
   "dependencies": {
     "klayjs": "^0.2.1"
   },
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/automata/klay-js.git"
+    "url": "git://github.com/noflo/klayjs-noflo.git"
   },
   "keywords": [
     "autolayout",
