@@ -21,6 +21,9 @@
     "gwt",
     "webworker"
   ],
+  "scripts": {
+    "test": "echo No tests. See https://github.com/noflo/klayjs-noflo/issues/3"
+  },
   "author": "Vilson Vieira <vilson@void.cc>",
   "license": "MIT"
 }
