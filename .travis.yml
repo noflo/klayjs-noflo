@@ -1,3 +1,11 @@
 language: node_js
 node_js:
 - '6'
+deploy:
+  provider: npm
+  email: jononor@gmail.com
+  api_key:
+    secure: pJTPxKciC1Y1K/F8GxdI9lFmLnU+G6nvRQ7QpJIjuwPNH4GvDTKakt9gxbgEx4Cpej4j95yoTbj/OJMzhTkaU8MbscjJnjLeamk5BnUNKlLpzmK3Atq+3j6/imfb0EoJwUgRvJ5T1gF2AVlk7Bnp/XGF6g0hYKRcEzL9fNoxFh0=
+  on:
+    tags: true
+    repo: noflo/klayjs-noflo
